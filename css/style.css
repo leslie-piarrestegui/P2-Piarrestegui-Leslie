@@ -349,7 +349,6 @@ ul {
         .color {
             background-color: rgb(255,193,7);
             width: 100%;
-
         }
 
         .display-none {
@@ -434,6 +433,10 @@ ul {
 
         .centre {
             text-align: center;
+        }
+
+        h3 {
+            margin-block-start: 2em;
         }
 
     }
