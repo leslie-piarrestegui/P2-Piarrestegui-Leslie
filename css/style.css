@@ -6,6 +6,7 @@
 
 
 body {
+    max-width: 1200px;
     font-family: ma-police-personnalisee;
     color: rgb(117,117,117);
 }
@@ -391,11 +392,11 @@ ul {
         }
 
         h5 {
-            font-size: 18px;
+            font-size: 20px;
         }
 
         .margin-description {
-            font-size: 16px;
+            font-size: 17px;
         }
 
         .description-metier {
@@ -418,6 +419,23 @@ ul {
         .date-periode {
             display: flex;
         }
+
+        .py-2-bloc2 {
+            padding-top: 0;
+        }
+
+        .margin-top-contact {
+            margin-top: 0;
+        }
+
+        .font-size-bloc2 {
+            font-size: 17px;
+        }
+
+        .centre {
+            text-align: center;
+        }
+
     }
 
 
