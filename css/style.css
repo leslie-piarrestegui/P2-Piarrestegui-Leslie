@@ -6,7 +6,6 @@
 
 
 body {
-    min-width: 320px;
     font-family: ma-police-personnalisee;
     color: rgb(117,117,117);
 }
@@ -351,14 +350,47 @@ ul {
             display: none;
         }
 
+        .flex2 {
+            display: inherit;
+        }
+
         .px-0-5 {
             padding-left: 0.5rem;
-            padding-right: ;
+            padding-right: 0.5rem;
         }
 
         .image-ronde{
             margin-top: 0.5rem;
             margin-bottom: 0.5rem;
+        }
+
+        .line-height {
+            line-height: 25px
+        }
+
+        .p-line-heigth {
+            line-height: 17px;
+        }
+
+        .font-size {
+            font-size: 15px;
+        }
+
+        ul {
+            text-align: justify;
+            padding-bottom: 1rem;
+        }
+
+        .margin-bottom {
+            margin-bottom: 1.5rem;
+        }
+
+        h5 {
+            font-size: 18px;
+        }
+
+        .margin-description {
+            font-size: 16px;
         }
     }
 
