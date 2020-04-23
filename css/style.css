@@ -205,7 +205,7 @@ h5 {
 .lieu-periode {
     font-weight: normal;
     padding-left: 22px;
-    font-size: small;
+    font-size: 12px;
 }
     
     
@@ -319,7 +319,33 @@ ul {
     padding-left: 7px;
 }
 
-    @media all and (min-width: 320px) and (max-width: 600px) {
+    @media all and (min-width: 600px) and (max-width: 1024px) {
+
+        .conteneur {
+            width: 100%;
+        }
+        .px-1 {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        .description-metier {
+            width: 100%;
+            padding-left: 0px ;
+        }
+
+        .pad-ul {
+            padding-bottom: 1.5rem;
+        }
+
+        ul {
+            text-align: center;
+        }
+   
+    }
+
+
+    @media all and (min-width: 320px) and (max-width: 599px) {
 
         .conteneur {
             flex-direction: column;
