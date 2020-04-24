@@ -210,8 +210,8 @@ h5 {
     
     
 .description-metier {
-    width: 70%;
-    padding-left: 50px;
+    width: 100%;
+    padding-left: 30px;
 }
     
 .couleur-i {
@@ -322,7 +322,19 @@ ul {
     @media all and (min-width: 600px) and (max-width: 1024px) {
 
         .conteneur {
-            width: 100%;
+            width: 90%;
+        }
+
+        #contact {
+            height: 25%;
+        }
+
+        #A-propos {
+            height: 60%;
+        }
+
+        #loisir {
+            height: 15%;
         }
         .px-1 {
             padding-left: 1rem;
@@ -330,7 +342,6 @@ ul {
         }
 
         .description-metier {
-            width: 100%;
             padding-left: 0px ;
         }
 
@@ -438,7 +449,6 @@ ul {
 
         .description-metier {
             padding-left: 0;
-            width: 100%;
         }
 
         .lieu-periode {
@@ -478,9 +488,12 @@ ul {
         }
 
         #loisir {
-            padding-bottom: 1rem;
+            padding-bottom: 101rem;
         }
 
+        .font-size{
+            font-size: 15px;
+        }
 
 
     }
