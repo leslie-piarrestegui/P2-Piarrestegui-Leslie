@@ -86,28 +86,15 @@ h1 {
     font-weight: lighter;
     color: black;
 }
-    
-h2 {
-    margin-top: 0px;
-    font-weight: bold 300;
-    display: inline-block;
+
+.souligner {
+    border-bottom: rgb(255,193,7) solid 2px;
     padding-bottom: 1px;
-    position: relative;
-}
-    
-h2:after {
-    content: "";
-    position: absolute;
-    width: 50%;
-    height: 1px;
-    bottom: 0;
-    left: 0%;
-    border-bottom: 2px solid rgb(255,193,7);
 }
         
 h3 {
-    margin-block-start: 1.3em;
-    margin-block-end: 1.5em;
+    margin-top: 1.3em;
+    margin-bottom: 1.5em;
     padding-bottom: 10px;
     border-bottom: 2px rgb(255,193,7) solid;
     font-size: large;
@@ -204,7 +191,7 @@ h5 {
    
 .lieu-periode {
     font-weight: normal;
-    padding-left: 22px;
+    padding-left: 17px;
     font-size: 12px;
 }
     
@@ -240,7 +227,7 @@ h5 {
 }
     
 .dot-circle {
-    padding-left: 26px;
+    padding-left: 22px;
 }
     
 .padding15 {
@@ -318,6 +305,8 @@ ul {
     padding-right: 7px;
     padding-left: 7px;
 }
+
+
 
     @media all and (min-width: 600px) and (max-width: 1024px) {
 
@@ -484,7 +473,7 @@ ul {
         }
 
         h3 {
-            margin-block-start: 2em;
+            margin-top: 2em;
         }
 
         #loisir {
