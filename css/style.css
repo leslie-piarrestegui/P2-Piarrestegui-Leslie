@@ -58,8 +58,6 @@ body {
 .image-ronde {
     width : 130px; height : 130px;
     border: 4px solid rgba(0,0,0,0.1);
-    -moz-border-radius : 75px;
-    -webkit-border-radius : 75px;
     border-radius : 75px;
 }
     
@@ -158,13 +156,13 @@ p {
 h5 {
     color: rgb(66,66,66);
     font-weight: bold;
-    font-size: 15px;
+    font-size: 17px;
     margin-top: 0;
     margin-bottom: 0;
 }
     
 .margin-description {
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -185,16 +183,15 @@ h5 {
     width: 30%;
 } 
 
-.date-periode {
-    font-weight: bold;
+.time {
+    font-size: 14px;
 }
-   
+
 .lieu-periode {
     font-weight: normal;
     padding-left: 17px;
-    font-size: 12px;
+    font-size: 15px;
 }
-    
     
 .description-metier {
     width: 100%;
@@ -216,7 +213,7 @@ h5 {
 }
     
 .padding-time {
-    font-size: 11px;
+    font-size: 14px;
     font-weight: bold;
     padding-left: 10px;
 }
@@ -224,10 +221,11 @@ h5 {
 .periode {
     width: 100%;
     font-size: 12px;
+    font-weight: bold;
 }
     
 .dot-circle {
-    padding-left: 22px;
+    padding-left: 25px;
 }
     
 .padding15 {
@@ -251,11 +249,15 @@ h5 {
 }
     
 .font-size {
-    font-size: 11px;
+    font-size: 13px;
+}
+
+.font-size-bloc2 {
+    font-size: 13px;
 }
     
 .p-line-heigth {
-    line-height: 15px;
+    line-height: 18px;
 }
     
 .line-heigth {
@@ -365,9 +367,6 @@ ul {
             text-align: center;
         }
 
-        h2:after {
-            width: 30%;
-        }
         h3 {
             text-align: center;
         }
@@ -477,11 +476,15 @@ ul {
         }
 
         #loisir {
-            padding-bottom: 101rem;
+            padding-bottom: 1rem;
         }
 
         .font-size{
             font-size: 15px;
+        }
+
+        .pad-mobile {
+            padding-top: 10px;
         }
 
 
