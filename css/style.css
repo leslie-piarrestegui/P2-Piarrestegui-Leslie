@@ -36,15 +36,15 @@ body {
 }
 
 #photo-profil {
-    height: 15%;
+    height: 13%;
 }
 
 #contact {
-    height: 25%;
+    height: 22%;
 }
 
 #A-propos {
-    height: 50%;
+    height: 55%;
 }
 
 #loisir {
@@ -487,6 +487,18 @@ ul {
             padding-top: 10px;
         }
 
+
+    }
+
+    @media all and (min-width: 600px) and (max-width: 800px) {
+        
+        .flex-column2 {
+            flex-direction: column;
+        }
+
+        .pad-top {
+            padding-top: 1.7rem;
+        }
 
     }
 
