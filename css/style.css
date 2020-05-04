@@ -6,7 +6,7 @@
 
 
 body {
-    max-width: 1200px;
+    max-width: 1024px;
     font-family: ma-police-personnalisee;
     color: rgb(117,117,117);
 }
@@ -265,7 +265,8 @@ h5 {
 }
     
 ul {
-    padding: 0;
+    padding-left: 0;
+    padding-right: 1rem;
     margin: 0;
 }
     
@@ -338,10 +339,6 @@ ul {
 
         .pad-ul {
             padding-bottom: 1.5rem;
-        }
-
-        ul {
-            text-align: center;
         }
    
     }
